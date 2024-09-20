@@ -14,13 +14,10 @@ Go to `example` folder, add your plugin, and start develop.
 ```ts
 // example/vite.config.ts
 
-import MyPlugin from 'vite-plugin-starter'
+import MyPlugin from 'vite-plugin-starter';
 export default {
-  plugins: [
-    MyPlugin()
-  ],
-}
-
+  plugins: [MyPlugin()],
+};
 ```
 
 Don't forget edit your `README.md` and the infos in `package.json`
